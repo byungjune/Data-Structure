@@ -37,6 +37,7 @@ Queue.prototype.size = function() {
 // Check the function
 
 var check = new Queue;
+console.log(check)
 check.enqueue('a');
 check.enqueue('b');
 check.enqueue('c');
