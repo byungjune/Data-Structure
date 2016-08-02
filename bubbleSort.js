@@ -3,23 +3,6 @@ function swap(items, firstIndex, secondIndex){
     items[firstIndex] = items[secondIndex];
     items[secondIndex] = temp;
 }
-/*
-function bubbleSort(items){
-    var len = items.length,
-        i, j;
-
-    for (i=len-1; i >= 0; i--){
-        for (j=len-i; j >= 0; j--){
-            if (items[j] < items[j-1]){
-                swap(items, j, j-1);
-            }
-        }
-    }
-
-    return items;
-}
-*/
-
 
 function bubbleSort(items){
 
